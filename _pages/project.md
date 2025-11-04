@@ -98,7 +98,11 @@ Teams of 3-4 students are strongly encouraged. Once your team is formed, email t
 
 **Date:** Monday, December 8 and Wednesday, December 10.
 
-- **Format**: Each team will deliver a **7-minute presentation** in class, summarizing their project. Presentations will include a brief introduction, methods overview, key findings, and future directions. This is the only portion of the project that will have individual (per-person) grades.
+- **Format**: Each team will deliver a **7-minute presentation** in class, summarizing their project. Presentations will include a brief introduction, methods overview, key findings, and future directions. This is the only portion of the project that will have individual (per-person) grades, so make sure every group member contributes to the presentation.
+
+- **Recommended Content** (but please adapt to fit your project): Title slide; Executive summary; Problem; State of the Field; Method; Results; Limitations / Next Steps; Takeaway
+
+- **Presenting** We will use Prof. Lengerich's laptop to present slides in our classroom. **Submit your slides in presentation format (PPTX, Keynote, or PDF) 24 hours before your scheduled presentation.**
 
 - **Grading**:
   - 30%: Clarity and engagement of presentation.
@@ -112,9 +116,22 @@ Teams of 3-4 students are strongly encouraged. Once your team is formed, email t
 **Due:** Friday, December 12, 2025, at 11:59 PM via Canvas.
 
 - **Content**:
-
   - ICML-style paper (8 pages).
-  - Sections: Introduction, Background & Related Work, Methods, Experiments, and Conclusions.
+  - Sections:
+    - Abstract
+    - Introduction
+    - Background & Related Work (synthesize the related works into a narrative that places your work in context)
+    - Methods
+    - Experiments 
+    - Discussion (limitations, broader impact, etc.)
+    - Conclusions
+    - Reference (separate page using `\clearpage`)
+
+- **Experimental expectations**:
+  - At least one reasonable baseline.
+  - At least one ablation / diagnostic (e.g. remove a term from your loss function, swap encoder, reduce data, etc).
+  - Error / qualitative analysis (failure cases, calibration, representative samples, etc).
+  - Report uncertainty where applicable (e.g., variance over training runs).
 
 - **Grading**:
   - 10%: Problem definition and literature review.
